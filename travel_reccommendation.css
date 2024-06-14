@@ -101,6 +101,10 @@ nav {
 
   /* About page styling */
 
+  .textContainer_about {
+    margin-left: 100px;
+  }
+
   .textContainer_title__about {
     font-size: 48px;
     margin-bottom: 50px;
