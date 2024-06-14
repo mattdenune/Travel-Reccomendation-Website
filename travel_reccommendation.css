@@ -155,3 +155,48 @@ nav {
     margin-left: 15px;
   }
 
+
+  /* Contact Us page styling */
+
+  #contactForm {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  #contactForm input,
+  #contactForm textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+  }
+  #contactForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  #contactForm button:hover {
+    background-color: #0056b3;
+  }
+
+  .textContainer_form {
+    padding: 20px;
+    margin: 10px;
+    backdrop-filter: blur(4px) saturate(200%);
+    -webkit-backdrop-filter: blur(4px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+
+  .textContainer_contact {
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+  }
+
+  .textContainer_title__Contact h1 {
+    font-size: 48px;
+    margin-top: 100px;
+  }

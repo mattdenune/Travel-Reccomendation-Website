@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Matt's Travel Reccommendations</title>
+    <link rel="stylesheet" href="./travel_reccommendation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+        <h1>Matt's Travel Reccommendations</h1>
+        <ul>
+          <li><a href="./travel_reccommendation.html" id="home">Home </a></li>
+          <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+          <li><a href="./travel_about_us.html" id="about">About Us </a></li>
+        </ul>
+      </nav>
+    <div class="container">
+      <div class="icons">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+      </div>
+      <div class="textContainer_contact">
+        <div class="textContainer_title__Contact">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="textContainer_form">
+            <form id="contactForm">
+                <div>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" onclick="thankyou()">Submit</button>
+              </form>
+              <script>
+                function thankyou(){
+                    alert('Thank you for contacting us!')
+                }
+              </script>
+        </div>
+      </div>
+    </div>
+    <script src="./travel_reccommendation.js"></script>
+  </body>
+</html>
