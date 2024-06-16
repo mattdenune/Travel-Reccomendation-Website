@@ -42,6 +42,7 @@ nav {
   }
   #conditionDestination {
     border: none;
+    color: black;
   }
 
   button {
@@ -159,6 +160,41 @@ nav {
     margin-left: 15px;
   }
 
+  .subContainer {
+    display: flex;
+    flex: row;
+    max-height: 50vh;
+  }
+
+  #result {
+    width: 60%;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 100px;
+    overflow-y: auto;
+  }
+
+  .resultImage {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .resultName {
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  .resultDescription {
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  .resultBtn {
+    margin-bottom: 10px;
+  }
+
 
   /* Contact Us page styling */
 
@@ -203,4 +239,13 @@ nav {
   .textContainer_title__Contact h1 {
     font-size: 48px;
     margin-top: 100px;
+  }
+
+  .blurBackground {
+    padding: 20px;
+    backdrop-filter: blur(4px) saturate(200%);
+    -webkit-backdrop-filter: blur(4px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
   }
